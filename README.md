@@ -33,16 +33,16 @@ Procedure:
 
 ## Pseudocode 
 
-import book_file
-read book_file
-pattern = "and"
-count_and = 0
-data = lowerCase(book_file)
-for line in data:  
-  for word in line: 
-    if data includes pattern:
-      count = count + 1
-result = count
+    import book_file
+    read book_file
+    pattern = "and"
+    count_and = 0
+    data = lowerCase(book_file)
+    for line in data:  
+      for word in line: 
+        if data includes pattern:
+          count = count + 1
+    result = count
 
 
 task: How to find a given name in a phonebook
